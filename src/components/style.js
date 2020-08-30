@@ -45,6 +45,9 @@ export const Heading = styled.div`
   .p {
     color: ${Colors.Grey};
   }
+  .whitePos {
+    color: white;
+  }
 `;
 
 export const HeaderIcons = styled.div`
@@ -246,5 +249,6 @@ export const Dates = styled.div`
 
   &.darkTheme:hover {
     background-color: #383b40;
+    color: white;
   }
 `;

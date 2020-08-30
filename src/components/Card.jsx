@@ -30,7 +30,7 @@ const Card = () => {
       <CardBody className={`${theme && "darkTheme"} `}>
         <MainBody>
           <Heading>
-            <p>POS FAILURE RATE</p>
+            <p className={theme && count === 2 ? "whitePos" : ""}>POS FAILURE RATE</p>
             <HeaderIcons>
               <img src={Toggle} alt="toggle" onClick={toggleState} />
               <img src={theme ? Bright : Moon} alt="theme" onClick={toggleTheme} />
